@@ -28,3 +28,4 @@
     //let numbers = readLine()!.split(separator: " ").map { Int($0)! }
 swiftで解いてみた  
 [ABC185-A](https://atcoder.jp/contests/abc185/submissions/22780120)
+[ABC182-C](https://atcoder.jp/contests/abc182/submissions/22781335)
