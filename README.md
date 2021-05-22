@@ -1,7 +1,7 @@
 # AtCoderforGreen
 競プロで学んだ知識を記録していく  
 同じ言語使わない縛りで解けたら楽しそう
-## 競技開始前のテンプレ  (c++ GCC 9.2.1)
+## 競技開始前のテンプレ  c++ GCC 9.2.1
 
     #include <bits/stdc++.h>
     using namespace std;
@@ -19,7 +19,7 @@
 
     }
 
-## (swift 5.2.1)
+## swift 5.2.1
     //string型で読み込み
     //let line = readLine()!
     //string型で読み込んだものをint型に変換
@@ -29,3 +29,7 @@
 swiftで解いてみた  
 [ABC185-A](https://atcoder.jp/contests/abc185/submissions/22780120)
 /[ABC182-C](https://atcoder.jp/contests/abc182/submissions/22781335)
+
+## python 3.8.2  
+pythonで解いてみた  
+[ABC182-D](https://atcoder.jp/contests/abc182/submissions/22783285)
