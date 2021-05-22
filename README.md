@@ -1,6 +1,6 @@
 # AtCoderforGreen
 競プロで学んだ知識を記録していく  
-競技開始前のテンプレ  
+## 競技開始前のテンプレ  
 
     #include <bits/stdc++.h>
     using namespace std;
