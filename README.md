@@ -22,6 +22,8 @@
 ## (swift 5.2.1)
     //string型で読み込み
     //let line = readLine()!
+    //string型で読み込んだものをint型に変換
+    //let ii = n.map { Int(String($0))! }
     //numbers配列に数字の読み込み
     //let numbers = readLine()!.split(separator: " ").map { Int($0)! }
 swiftで解いてみた  
