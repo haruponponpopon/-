@@ -31,5 +31,6 @@ swiftで解いてみた
 /[ABC182-C](https://atcoder.jp/contests/abc182/submissions/22781335)
 
 ## python 3.8.2  
+[標準入力で参考にしたサイト](https://qiita.com/jamjamjam/items/e066b8c7bc85487c0785)
 pythonで解いてみた  
 [ABC182-D](https://atcoder.jp/contests/abc182/submissions/22783285)
