@@ -30,5 +30,4 @@ swiftで解いてみた
 ## python 3.8.2  
 [標準入力で参考にしたサイト](https://qiita.com/jamjamjam/items/e066b8c7bc85487c0785)  
 pythonで解いてみた  
-[ABC182-D](https://atcoder.jp/contests/abc182/submissions/22783285)  
-[ARC120-B](https://atcoder.jp/contests/arc120/submissions/22921382)  
+[ABC182-D](https://atcoder.jp/contests/abc182/submissions/22783285)  /[ARC120-B](https://atcoder.jp/contests/arc120/submissions/22921382)  
