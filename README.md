@@ -8,6 +8,7 @@ vectorは初期化不要
     using namespace std;
     #define ll long long
     #define rep(i, n) for (int i = 0; i < (int)(n); i++)
+    const int INF = 0x3fffffff;
 
 
 
