@@ -2,6 +2,7 @@
 競プロで学んだ知識を記録していく  
 同じ言語使わない縛りで解けたら楽しそう
 ## 競技開始前のテンプレ  c++ GCC 9.2.1
+vectorは初期化不要
 
     #include <bits/stdc++.h>
     using namespace std;
