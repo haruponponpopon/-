@@ -12,7 +12,9 @@ vectorは初期化不要
 
 
 
-    int main(){A
+    int main(){
+        int N;
+        //cin >> N;
         //cout << N << endl;
         return 0;
 
