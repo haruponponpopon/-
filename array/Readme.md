@@ -55,6 +55,25 @@ int main(){
   } //0:banana 1:apple 5:orange;
 }
 ```
+存在するかしないか [練習問題](https://atcoder.jp/contests/typical90/tasks/typical90_aa)
+```
+#include <iostream>
+#include <map>
+using namespace std;
+int main(){
+	map<string, int> a;
+	a["apple"] = 1;
+	a["banana"] = 2;
+
+	auto b = a.find("apple");
+	if (b!=a.end()) cout << "find" << endl;
+	else cout << "no exist" << endl;
+
+	b = a.find("pen");
+	if (b!=a.end()) cout << "find" << endl;
+	else cout << "no exist" << endl;
+}
+```
 # set
 ```
 #include<set>
