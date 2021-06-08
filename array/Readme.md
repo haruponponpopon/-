@@ -55,23 +55,28 @@ int main(){
   } //0:banana 1:apple 5:orange;
 }
 ```
-存在するかしないか [練習問題](https://atcoder.jp/contests/typical90/tasks/typical90_aa)
+[練習問題(存在の有無)](https://atcoder.jp/contests/typical90/tasks/typical90_aa)
+[練習問題(削除)](https://atcoder.jp/contests/typical90/tasks/typical90_ah)
 ```
 #include <iostream>
 #include <map>
 using namespace std;
 int main(){
-	map<string, int> a;
+	map<string, int> a; //キーが文字列、valueが数字
 	a["apple"] = 1;
 	a["banana"] = 2;
 
-	auto b = a.find("apple");
+	auto b = a.find("apple"); //存在するかしないか
 	if (b!=a.end()) cout << "find" << endl;
 	else cout << "no exist" << endl;
 
-	b = a.find("pen");
+    a.erase("apple"); //キーの削除
+
+	b = a.find("apple");
 	if (b!=a.end()) cout << "find" << endl;
 	else cout << "no exist" << endl;
+
+    cout << a.size() << endl; //サイズの取得
 }
 ```
 # set
