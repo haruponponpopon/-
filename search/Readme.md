@@ -50,7 +50,7 @@ int main(){
 末尾までの距離
 8 6 2 1 0
 ```
-## upper_bond
+## upper_bound
 keyより大きい値を返す  
 ```
 #include <iostream>
