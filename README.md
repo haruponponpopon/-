@@ -9,6 +9,7 @@ vectorは初期化不要
     #define ll long long
     #define rep(i, n) for (int i = 0; i < (int)(n); i++)
     const int INF = 0x3fffffff;
+    const long long LOF=0x7fffffffffffffffll
 
 
 
