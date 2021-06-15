@@ -79,7 +79,8 @@ int main(){
     cout << a.size() << endl; //サイズの取得
 }
 ```
-# set
+# set  
+中身が二分木  
 ```
 #include<set>
 #include<iostream>
