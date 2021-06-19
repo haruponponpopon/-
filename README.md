@@ -14,7 +14,7 @@ vectorは初期化不要
 
 
     int main(){
-        int N;
+        //int N;
         //cin >> N;
         //cout << N << endl;
         return 0;
