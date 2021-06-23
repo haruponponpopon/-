@@ -116,3 +116,25 @@ int main(){
         for (auto c: b.second) cout << b.first << "->" << c << " ";
     }  //0->2 2->1 2->3 3->1
 }
+```
+# pair
+```
+#include<iostream>
+#include<string>
+#include <tuple>
+using namespace std;
+int main(){
+    /*宣言*/
+    pair<int, string> p;
+    /*代入1*/
+    p.first = 1;
+    p.second = "hello";
+    /*代入2*/
+    p = {2, "thanks"};
+    /*値の取り出し*/
+    int a;
+    string b;
+    tie(a,b) = p;
+    cout << a << " " << b;
+}
+```
