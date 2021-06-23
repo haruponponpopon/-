@@ -1,4 +1,5 @@
-# AtCoderforGreen
+# AtCoderforLightBlue
+水コーダー目指して  
 競プロで学んだ知識を記録していく  
 同じ言語使わない縛りで解けたら楽しそう
 ## 競技開始前のテンプレ  c++ GCC 9.2.1
