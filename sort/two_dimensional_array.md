@@ -25,3 +25,24 @@
     3 9
     4 2
     5 1 
+# 配列の値を元に別の配列をソート  
+```
+#include <vector>
+#include <numeric>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main(){
+    vector<int> A = {5,3,1,2,4};
+    vector<int>B(5);
+    iota(B.begin(), B.end(),0);
+    sort(B.begin(), B.end(),[&](int x,int y) {
+        return A[x] > A[y];
+    });
+    for (int i=0; i<5; i++) cout << B.at(i) << " ";
+    cout << endl;
+}
+```
+実行結果
+`0 4 1 3 2 `
