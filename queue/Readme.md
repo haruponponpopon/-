@@ -60,3 +60,20 @@ FIFOのデータ構造
 出力  
 
     [1,2] [2,3] [3,1] 
+# dequeue
+```
+#include <iostream>
+#include <deque>
+using namespace std;
+int main(){
+    deque<int> q;
+    /*要素の追加*/
+    q.push_front(3);
+    q.push_back(1);
+    /*要素の参照*/
+    cout << q.front() << " " << q.back() << endl;
+    /*要素の削除*/
+    q.pop_front();
+    q.pop_back();
+}
+```
