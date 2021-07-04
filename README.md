@@ -39,3 +39,6 @@ swiftで解いてみた
 [標準入力で参考にしたサイト](https://qiita.com/jamjamjam/items/e066b8c7bc85487c0785)  
 pythonで解いてみた  
 [ABC182-D](https://atcoder.jp/contests/abc182/submissions/22783285)  /[ARC120-B](https://atcoder.jp/contests/arc120/submissions/22921382)  
+## go
+[標準入力で参考にしたサイト](https://qiita.com/syumai/items/d4d436eacc58ffbd8200)  
+[典型](https://atcoder.jp/contests/typical90/submissions/23940277)
