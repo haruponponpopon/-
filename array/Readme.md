@@ -97,6 +97,17 @@ int main(){
     cout << endl;  //3 5 9 
 }
 ```
+## unordered_set
+```
+#include <iostream>
+#include <unordered_set>
+using namespace std;
+int main(){
+	//重複を消して配列に入れる　s.size()で要素数を取得
+	unordered_set<int> s;
+	s.insert(1);
+}
+```
 # mapとset
 ```
 #include<map>
