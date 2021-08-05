@@ -7,6 +7,7 @@ using namespace std;
 
 int main(){
 	vector<vector<int>> A(2);
+	vector<vector<int>> B(N, vector<int>(5)); //N*5の配列B
 	A[0].push_back(3);
 	A[1].push_back(1);
 	A[0].push_back(10);
