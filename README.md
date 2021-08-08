@@ -9,18 +9,13 @@ vectorは初期化不要
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
-#define rep(i, n) for (int i = 0; i < (int)(n); i++)
 const int INF = INT_MAX;
 const long long LOF=LLONG_MAX;
 
 
 
 int main(){
-    //int N;
-    //cin >> N;
-    //cout << N << endl;
-
-    return 0;
+    
 }
 ```
 ## swift 5.2.1
