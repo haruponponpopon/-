@@ -25,6 +25,7 @@
     3 9
     4 2
     5 1 
+[構造体のソートhttps://atcoder.jp/contests/abc201/submissions/24941281
 # 配列の値を元に別の配列をソート  
 ```
 #include <vector>
