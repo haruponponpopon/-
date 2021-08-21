@@ -12,8 +12,6 @@ using namespace std;
 const int INF = INT_MAX;
 const long long LOF=LLONG_MAX;
 
-
-
 int main(){
     
 }
