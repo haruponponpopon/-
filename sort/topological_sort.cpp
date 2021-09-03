@@ -12,7 +12,7 @@ int main(){
 		//頂点sから頂点tへの有向辺
 		graph[s].push_back(t);
 		in[t]++;
-	}m
+	}
 
 	//入次数が0の頂点の集合
 	queue<int> in0;
