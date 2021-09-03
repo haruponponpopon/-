@@ -1,8 +1,7 @@
 # AtCoderforLightBlue
 水コーダー目指して  
 競プロで学んだ知識を記録していく  
-memo  
-三項演算子
+topological sort
 ## 競技開始前のテンプレ  c++ GCC 9.2.1
 vectorは初期化不要
 ```
