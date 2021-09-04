@@ -2,7 +2,8 @@
 水コーダー目指して  
 競プロで学んだ知識を記録していく  
 ## 索引  
-- [トポロジカルソート](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/sort/topological_sort.cpp)
+- [トポロジカルソート](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/sort/topological_sort.cpp)  
+- [BIT](https://github.com/haruponponpopon/AtCoderforLightBlue/tree/main/bit)
 ## 競技開始前のテンプレ  c++ GCC 9.2.1
 vectorは初期化不要
 ```
