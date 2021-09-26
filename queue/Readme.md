@@ -34,6 +34,7 @@ FIFOのデータ構造
 	}
 	cout << endl;
 	priority_queue<int,vector<int>,greater<int>> que2; //昇順  
+	priority_queue<pair<int, int>,vector<pair<int, int>>,greater<>> que3;
 	que2.push(3);
 	que2.push(1);
 	que2.push(4);
