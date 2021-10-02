@@ -1,3 +1,4 @@
+//転倒数を求める例
 #include <vector>
 #include <iostream>
 using namespace std;
