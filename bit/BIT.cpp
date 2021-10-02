@@ -65,7 +65,7 @@ int main(){
     int n=7;
     int a[5] = {3,1,5,4,2};
     BIT bit;
-    bit.init(n);//初期化は2大きい数でしないとoverflowします
+    bit.init(n);aの最大値より2大きい数にしないとoverflow
     int ans = 0;
     for (int i=0; i<n; i++){
         ans += i - bit.sum_sub(a[i]);
