@@ -47,3 +47,17 @@ int main(){
 ```
 実行結果
 `0 4 1 3 2 `
+# 愚直にソートできない時フレキシブルに(比較関数の実装)
+```
+sort(begin(S), end(S), [&](const string& s, const string& t) {
+        // 文字列の比較
+        int len = min(size(s), size(t));
+        for (int i = 0; i < len; ++i) {
+            if (s[i] != t[i]) {
+                return pos[s[i] - 'a'] < pos[t[i] - 'a'];  
+            }
+        }
+        return size(s) < size(t);
+    });
+```
+[Atcoder例](https://atcoder.jp/contests/abc219/editorial/2657)
