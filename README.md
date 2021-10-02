@@ -3,7 +3,7 @@
 競プロで学んだ知識を記録していく  
 ## 索引  
 - [トポロジカルソート](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/sort/topological_sort.cpp)  
-- [BIT](https://github.com/haruponponpopon/AtCoderforLightBlue/tree/main/bit)  
+- [BIT](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/bit/BIT.cpp)  
 - [UF木](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search/UnionFindTree.cpp)  
 - [二分木setによる二分探索](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search/binary_tree_search.cpp)  
 - [vectorによる二分探索](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search)  
