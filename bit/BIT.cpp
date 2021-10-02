@@ -62,10 +62,10 @@ public:
 };
 
 int main(){
-    int n=6;
+    int n=7;
     int a[5] = {3,1,5,4,2};
     BIT bit;
-    bit.init(n);
+    bit.init(n);//初期化は2大きい数でしないとoverflowします
     int ans = 0;
     for (int i=0; i<n; i++){
         ans += i - bit.sum_sub(a[i]);
