@@ -62,7 +62,7 @@ public:
 };
 
 int main(){
-    int n=5;
+    int n=6;
     int a[5] = {3,1,5,4,2};
     BIT bit;
     bit.init(n);
