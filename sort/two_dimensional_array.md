@@ -48,6 +48,7 @@ int main(){
 実行結果
 `0 4 1 3 2 `
 # 愚直にソートできない時フレキシブルに(比較関数の実装)
+[]の中に&が必要
 ```
 sort(begin(S), end(S), [&](const string& s, const string& t) {
         // 文字列の比較
