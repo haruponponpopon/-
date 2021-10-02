@@ -1,5 +1,7 @@
 # AtCoderforGreen
 競プロ解いてて難しかったけど解答読んで理解した問題をアウトプットする
+## BIT
+[説明](https://qiita.com/DaikiSuyama/items/7295f5160a51684554a7#bit%E3%81%A7%E3%81%AE%E5%80%A4%E3%81%AE%E6%9B%B4%E6%96%B0)
 ## XOR 
 Binary Indexed Tree (BIT)、XORの融合問題 xor.pdf 参照  
 [ABC185 F - Range Xor Query](https://atcoder.jp/contests/abc185/tasks/abc185_f)   
