@@ -21,6 +21,7 @@ int main(){
     
 }
 ```
+`stoiとかstoll`
 ## swift 5.2.1
     //string型で読み込み
     //let line = readLine()!
