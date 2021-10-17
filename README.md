@@ -10,6 +10,7 @@
 - [小数点の桁数指定](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/tips/print.cpp)
 - [aのb乗をEで割った余りを高速計算](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/math_algorithm/pow.cpp)
 - [座標圧縮](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/math_algorithm/coordinate_compression.cpp)
+- [アフィン変換](https://qiita.com/RubyLrving/items/d4db90cbfc1a397eb139)
 ## 競技開始前のテンプレ  c++ GCC 9.2.1
 vectorは初期化不要
 ```
