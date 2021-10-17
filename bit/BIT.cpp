@@ -9,7 +9,7 @@ public:
     vector<int> graph;
     int n;
     void init(int sz) {
-		graph.resize(sz+1, 0);//0で初期化
+	graph.resize(sz+1, 0);//0で初期化
         n = sz;
 	}
 
