@@ -11,7 +11,7 @@ public:
     void init(int sz) {
 	graph.resize(sz+1, 0);//0で初期化
         n = sz;
-	}
+    }
 
     //a[i]にxを加算する
     void add(int i, int x){
