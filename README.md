@@ -13,6 +13,7 @@
 - [アフィン変換](https://qiita.com/RubyLrving/items/d4db90cbfc1a397eb139)
 ## 競技開始前のテンプレ  c++ GCC 9.2.1
 vectorは初期化不要
+[stringの分割、結合](https://atcoder.jp/contests/abc223/editorial/2776)
 ```
 #include <bits/stdc++.h>
 using namespace std;
