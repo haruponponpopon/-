@@ -27,6 +27,10 @@ int main(){
 }
 ```
 `stoiとかstoll`
+これ書くと改行問題が消える
+`
+ios::sync_with_stdio(false), cin.tie(nullptr);
+`
 ## swift 5.2.1
     //string型で読み込み
     //let line = readLine()!
