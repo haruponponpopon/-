@@ -26,8 +26,8 @@ int main(){
     
 }
 ```
-`stoiとかstoll`
-これ書くと改行問題が消える
+`stoiとかstoll`  
+これ書くと改行問題が消える  
 `
 ios::sync_with_stdio(false), cin.tie(nullptr);
 `
