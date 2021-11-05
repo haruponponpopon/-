@@ -1,21 +1,21 @@
-/*https://atcoder.jp/contests/abc183/submissions/26885886*/
-/*高速UF木　今度要実験*/
 class UnionFind {
 public:
 	vector<int> par;
-
+ 
 	void init(int sz) {
 		par.resize(sz, -1);
 	}
 	int root(int pos) {
-		if (par[pos] == -1) return pos;
+		if (par[pos] < 0) return pos;
 		par[pos] = root(par[pos]);
 		return par[pos];
 	}
 	void unite(int u, int v) {
 		u = root(u); v = root(v);
 		if (u == v) return;
-		par[u] = v;
+        if (par[u] > par[v]) swap(u, v);
+        par[u]+=par[v];
+		par[v] = u;
 	}
 	bool same(int u, int v) {
 		if (root(u) == root(v)) return true;
