@@ -99,6 +99,7 @@ int main(){
 }
 ```
 ## unordered_set
+ハッシュ値
 ```
 #include <iostream>
 #include <unordered_set>
@@ -107,6 +108,25 @@ int main(){
 	//重複を消して配列に入れる　s.size()で要素数を取得
 	unordered_set<int> s;
 	s.insert(1);
+}
+```
+## unordered_set pair  
+```
+#include <unordered_set>
+
+namespace std {
+template <> struct hash<std::pair<int, int>> {
+    inline size_t operator()(const std::pair<int, int> &v) const {
+        std::hash<int> int_hasher;
+        return int_hasher(v.first) ^ int_hasher(v.second);
+    }
+};
+
+}
+
+int main()
+{
+    std::unordered_set< std::pair<int, int> > edge;
 }
 ```
 # mapとset
