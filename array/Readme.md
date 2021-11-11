@@ -111,6 +111,7 @@ int main(){
 }
 ```
 ## unordered_set pair  
+ただのsetの方が早い
 ```
 #include <unordered_set>
 
