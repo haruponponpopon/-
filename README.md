@@ -1,5 +1,5 @@
-# AtCoderforLightBlue
-水コーダー目指して  
+# AtCoderforBlue
+青コーダー目指して  
 競プロで学んだ知識を記録していく  
 ## 索引  
 - [トポロジカルソート](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/sort/topological_sort.cpp)  
