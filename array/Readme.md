@@ -82,6 +82,7 @@ int main(){
 ```
 # set  
 中身が二分木  
+`multiset`は値の重複を許す  
 ```
 #include<set>
 #include<iostream>
