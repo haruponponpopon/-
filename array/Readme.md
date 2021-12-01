@@ -97,6 +97,10 @@ int main(){
     /*要素の参照*/
     for (auto x: a) cout << x << " ";
     cout << endl;  //3 5 9 
+    multiset<int> b;
+    b.insert(2);
+    /*最大値の取得*/
+    cout<<*b.rbegin()<<endl;
 }
 ```
 ## unordered_set
