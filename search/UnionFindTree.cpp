@@ -21,4 +21,7 @@ public:
 		if (root(u) == root(v)) return true;
 		return false;
 	}
+    int size(int u) {
+        return -par[root(u)];
+    }
 };
