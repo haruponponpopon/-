@@ -1,4 +1,4 @@
-30C1くらいなら計算できる  
+//1つ目脳死　30C1くらいなら計算できる  
 
     ll combination(ll n, ll r) {
       if ( r * 2 > n ) r = n - r;
@@ -10,7 +10,19 @@
       }
       return dividend / divisor;
     }
-
+//2つ目 nが非常に大きい時
+long long nCk(long long n,long long k,long long mod)
+{
+    long long t=1;
+    if (k>n-k) k=n-k;
+    for (int i=0;i<k;++i)
+    {
+        t=(t*(n-i))%mod;
+        t=(t*my_pow(i+1,mod-2,mod))%mod;
+    }
+    return t;
+}
+//3つ目 combinationをたくさん計算したい時
 class Combination {
 public:
     vector<long long>f;
