@@ -12,7 +12,7 @@
 - [aのb乗をEで割った余りを高速計算](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/math_algorithm/pow.cpp)
 - [座標圧縮](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/math_algorithm/coordinate_compression.cpp)
 - [アフィン変換](https://qiita.com/RubyLrving/items/d4db90cbfc1a397eb139)
-- [逆元](https://qiita.com/sesame0224/items/f2ac77c367f588c0d29d)
+- [逆元](https://qiita.com/sesame0224/items/f2ac77c367f588c0d29d) aで割ることは、aのmod-2乗をかけることと同じ
  ([フェルマーの小定理](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A7%E3%83%AB%E3%83%9E%E3%83%BC%E3%81%AE%E5%B0%8F%E5%AE%9A%E7%90%86))
 - [arctan](https://cpprefjp.github.io/reference/cmath/atan2.html)
 ## 競技開始前のテンプレ  c++ GCC 9.2.1
