@@ -61,6 +61,7 @@ sort(begin(S), end(S), [&](const string& s, const string& t) {
         return size(s) < size(t);
     });
 ```
+[Atcoder例](https://atcoder.jp/contests/abc219/editorial/2657)
 # rotate
 [参考文献](https://cpprefjp.github.io/reference/algorithm/rotate.html)
-[Atcoder例](https://atcoder.jp/contests/abc219/editorial/2657)
+
