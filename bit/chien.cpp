@@ -48,9 +48,10 @@ public:
     seg = vector<ll>(sz * 2, 0);
     lazy = vector<ll>(sz * 2, 0);
   }
-  //l以上r以下をx増やす
+  //l以上r以下をx増やす//////r未満じゃない？
   void update(ll l, ll r, ll x){
     update(l, r, x, 1, 0, sz);
+    //update(l, r+1, x, 1, 0, sz);こうすればr以下になる??
   }
   //l以上r未満の最大値を返す
   ll range_max(ll l, ll r){
