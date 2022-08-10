@@ -5,6 +5,7 @@
 bit数を数える
 ```
 __builtin_popcount
+__builtin_popcountll(n)
 ```
 ## XOR 
 Binary Indexed Tree (BIT)、XORの融合問題 xor.pdf 参照  
