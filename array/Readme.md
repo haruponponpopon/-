@@ -176,3 +176,21 @@ int main(){
     cout << a << " " << b;
 }
 ```
+## mapでpairをキーにする
+```
+struct comp
+{
+    template<typename T>
+    bool operator()(const T &l, const T &r) const
+    {
+        if (l.first == r.first) {
+            return l.second > r.second;
+        }
+ 
+        return l.first < r.first;
+    }
+};
+int main(){
+	map<pair<ll,ll>,ll,comp>mp;
+}
+```
