@@ -19,6 +19,7 @@
 - [一直線上](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/math_algorithm/straight_line.cpp)  
 - [ベルマンフォード](https://qiita.com/wakimiko/items/69b86627bea0e8fe29d5)  
 - [クエリ平方分割(Mo's algorithm)](https://atcoder.jp/contests/abc242/tasks/abc242_g)  
+- [強連結成分分解](https://manabitimes.jp/math/1250)  
 ## 競技開始前のテンプレ  c++ GCC 9.2.1
 vectorは初期化不要  
 [stringの分割、結合](https://atcoder.jp/contests/abc223/editorial/2776)
