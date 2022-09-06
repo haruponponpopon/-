@@ -46,6 +46,33 @@ int main(){
     
 }
 ```
+```
+#include <bits/stdc++.h>
+using namespace std;
+#ifdef ONLINE_JUDGE
+#define debug(...)
+#else
+#include "competitive/library/debug.cpp"
+#endif
+#define ll long long
+int main(){
+
+}
+```
+```
+#include <iostream>
+#include <vector>
+#include <array>
+#include <complex>
+#include <bitset>
+#include <algorithm>
+using namespace std;
+#ifdef ONLINE_JUDGE
+#define debug(...)
+#else
+#include "competitive/library/debug.cpp"
+#endif
+```
 `stoiとかstoll`  
 ## swift 5.2.1
     //string型で読み込み
