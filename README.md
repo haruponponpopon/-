@@ -3,7 +3,7 @@
 競プロで学んだ知識を記録していく  
 ## 索引  
 - [トポロジカルソート](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/sort/topological_sort.cpp)  
-- [BIT(区間和)](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/bit/BIT.cpp)  [BIT(gcd)](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/bit/bit_gcd.cpp)  [BIT(lazy)](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/bit/chien.cpp)  
+- [BIT(区間和)](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/bit/BIT.cpp)  [BIT(gcd)](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/bit/bit_gcd.cpp)  [BIT(lazy)](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/bit/chien.cpp)  [BIT(lazy)新しい](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/bit/lazy.cpp)
 - [BIT(区間最小値)](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/search/binary_search_min.cpp)  [BIT(区間最大値)](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search/rmq.cpp)
 - [UF木](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search/UnionFindTree.cpp)  
 - [二分木setによる二分探索](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search/binary_tree_search.cpp)  
