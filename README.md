@@ -27,10 +27,12 @@ vectorは初期化不要
 ```
 #include <bits/stdc++.h>
 using namespace std;
+#ifdef ONLINE_JUDGE
+#define debug(...)
+#else
+#include "competitive/library/debug.cpp"
+#endif
 #define ll long long
-const int INF = INT_MAX;
-const long long LOF=LLONG_MAX;
-
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(0);
@@ -40,17 +42,6 @@ int main(){
 ```
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-const int INF = INT_MAX;
-const long long LOF=LLONG_MAX;
-
-int main(){
-    
-}
-```
-```
-#include <bits/stdc++.h>
-using namespace std;
 #ifdef ONLINE_JUDGE
 #define debug(...)
 #else
@@ -61,20 +52,7 @@ int main(){
 
 }
 ```
-```
-#include <iostream>
-#include <vector>
-#include <array>
-#include <complex>
-#include <bitset>
-#include <algorithm>
-using namespace std;
-#ifdef ONLINE_JUDGE
-#define debug(...)
-#else
-#include "competitive/library/debug.cpp"
-#endif
-```
+
 `stoiとかstoll`  
 ## swift 5.2.1
     //string型で読み込み
