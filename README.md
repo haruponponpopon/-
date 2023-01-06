@@ -6,7 +6,7 @@
 - [BIT(区間和)](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/bit/BIT.cpp)  [BIT(gcd)](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/bit/bit_gcd.cpp)  [BIT(lazy)区間を+x](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/bit/chien.cpp)  
 [BIT(lazy)区間をxに置き換え](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/bit/lazy.cpp)
 - [BIT(区間最小値)](https://github.com/haruponponpopon/AtCoderforBlue/blob/main/search/binary_search_min.cpp)  [BIT(区間最大値)](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search/rmq.cpp)
-- [UF木](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search/UnionFindTree.cpp)  
+- [UF木, タグ付きUF木](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search/UnionFindTree.cpp)  
 - [二分木setによる二分探索](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search/binary_tree_search.cpp)  
 - [vectorによる二分探索](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/search)  
 - [小数点の桁数指定](https://github.com/haruponponpopon/AtCoderforLightBlue/blob/main/tips/print.cpp)
